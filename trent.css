@@ -1,247 +1,135 @@
-/*This is the navagation bar*/
-ul .top-nav{
-  display: inline;
-  margin-right: 10px;
-  float:right;
-      color: #3a3a3a;
-      font-weight: 700;
-      font-family: "nimbus-sans",sans-serif;
-
-}
 .top-nav{
-  padding-top:20px;
-  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-right: 30px;
 }
-:hover.top-nav{
+
+.banana {
+  padding: 20px;
+  }
+
+a {
+  text-decoration: none;
   color: #EE4938;
-  cursor: pointer;
 }
-.header{
+
+.icon {
+  color: white;
+  background-color: black;
+  width: 70px;
   height: 70px;
+  border-radius: 70px;
+  font-family: cursive;
 }
-/*This is the end of the navagation bar */
 
-/*This is icon for the navagation bar */
-.icon{
-  background-color:black;
-  width:70px;
-  height: 70px;
-  border-radius: 100px;
-  float:left;
-}
-.icon p{
-  color:white;
-  font-family: 'Pinyon Script', cursive;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  font-size: 1.7em;
-
-  padding-right: 20px;
-  font-weight: 400;
-  cursor: pointer;
-    }
-    :hover.icon p{
-      text-decoration: none;
-    color: #EE4938;
-    transition: color 0.2s ease-out;
-}
-/*This is the end of the navagation bar */
-
-
-/*This is the start of the main section*/
-.main-wrapper{
-  width: 80%;
-  margin-right: 15%;
-  margin-left: 16%;
-}
-h1{
-  font-size: 3.5em;
-  margin-bottom: 20px;
-  height:210px;
-  width: 800px;
-}
- .main-li{
- display: inline;
- padding-right: 20px;
- font-size: 2em;
- color: #EE4938;
- cursor: pointer;
- }
- .span{
-  color:#EE4938;
-  cursor: pointer;
- }
-.main-ul{
-padding:0; 
-}
-p{
-  width: 45%;
+h3 {
+  display-flex;
   justify-content: center;
-  margin-right:15%;
-  float: right;
-  font-size: 22px;
+  align-items: center;
+  font-size: 50px;
+  padding-right: 160px;
+  padding-left: 160px;
 }
-.div{
-  height: 310px;
-  padding-bottom:30px;
-      border-top: 0.063rem solid rgba(0,0,0,0.2);
-      padding-top: 40px;     
-border-bottom: 0.063rem solid rgba(0,0,0,0.2);
+ 
+.main-links {
+  padding-left: 160px;
 }
-.div2{
-  height: 210px;
-  padding-bottom:30px;
-      padding-top: 40px;
-      width: 80%;
-  margin-right: 15%;
-  margin-left: 13%;
-  font-size: 1.5em;     
+  
+ 
+.link {
+   color: red;
 }
-.jpg{
-  max-width: 34.5%;
-  height: auto;
-   width: 34.5%;
-    
-}
-/*This is the start of the footer section*/
+ 
+.div {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center;
+  padding: 40px; 
 
-footer{
+}
+
+.div__img {
+    width: 300px;
+    align-items: center;  
+    justify-content: flex-start;
+    padding-left: 120px;
+    padding-right: 80px;
+
+}
+
+.div__text {
+    font-size: 20px;
+    padding-right: 160px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+footer {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 100%;
   padding-top:90px;
-  font-size: 1.3em;
+  font-size: 20px;
   color:#EE4938;
-  cursor: pointer;
   border-top: 0.063rem solid rgba(0,0,0,0.2);
   font-weight: 700;
 }
+
 .right{
   float: right;
 }
+
 .left{
   float: left;
 }
+
 .link{
   color:#EE4938;
-  cursor: pointer;
+
 }
+
 .fa-rss,
 .fa-twitter{
   color:#D8D8D8;
   padding-right: 4px;
 }
+ 
  ul .more{
   display: inline;
   width: 100%;
 }
-/*This is the start of the MEDIA QUERY section*/
-
-@media only screen and (max-width: 600px) {
-    .jpg {
-       width: 100%;
-       max-width: 100%;
-          }
-          .div{
-            width:700px;
-          }
-          p {
+            
+          
+          
+footer{
+            position: absolute;
+            left: 140;
+            bottom: -100;
+            border-top: 20px;
             width: 100%;
-            margin-top:0;
-            margin-right: 0;
-            margin-left: 0;
-            font-size: 2em;
-          }
-          .div{
-            height: 500px;
-            margin-bottom: 40px;
-          }
-          footer{
-           position: absolute;
-           left: 140;
-           bottom: -100;
-          border-top: 20px;
-           width: 100%;
-           font-size: 2em;
+            font-size: 20px;
 }
-html {
-    position: relative;
-    min-height: 100%;
-}
-.icon p{
-   color:white;
-  font-family: 'Pinyon Script', cursive;
-  margin-right: auto;
-  margin-left: 39px;
-  text-align: center;
-  font-size: 1.7em;
-  padding-right: 20px;
-  margin-top: 20px;
-  font-weight: 400;
-  cursor: pointer;
-    }
-    :hover.icon p{
-      text-decoration: none;
-    color: #EE4938;
-    transition: color 0.2s ease-out;
-    }
-}
-@media only screen and (max-width: 500px) {
-  .top-nav{
-  margin-top:100px;
-  font-size: 16px;
-  }
- h1{
-  width: 600px;
-  margin-bottom: 150px;
- }
-}
-@media only screen and (max-width: 450px) {
-  h1{
-    margin-top: 100px;
-  }
- .top-nav{
-display: block;
-width: 100%;
-margin:0;
- }
-   }
-   @media only screen and (max-width: 700px) {
-.jpg {
-       width: 50%;
-       max-width: 50%;
-   }
-   p{
-      padding-left: 400px;
-      width: 100%;
-      display: inline;
-     margin-right: 0;
-     padding-left: 50px;
-     margin-top: 40px;
-     font-size: 16px;
-margin-left: 80px;
-     }
-   .icon p{ 
-     color:white;
-  font-family: 'Pinyon Script', cursive;
-  margin-right:-10px;
 
-  font-size: 1.7em;
-  margin-top: 20px;
-  font-weight: 400;
-  cursor: pointer;
-    }
-    :hover.icon p{
-      text-decoration: none;
-    color: #EE4938;
-    transition: color 0.2s ease-out;
-        }
-@media only screen and (max-width: 450px) {
-  .left,
-.right{
-    display: block;
-    width: 100%;
-  }
-}
+
+
+   
+   
+
+  
+   
+
