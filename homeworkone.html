@@ -1,53 +1,74 @@
-<?php
-
-	$currentPage = "Home";
-
-	function isCurrentPage($pageName, currentPage) {
-	if ($pageName == $currentPage) {
-		echo "pagesItem--currentPage";
-	}
-	}
-?>
-
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Articles Trent Walton</title>
+   <head>
+      <title>Articles | Trent Walton</title>
+      <link rel="stylesheet" type="text/css" href="one.css"/>
+      
+      
+      
+      <div class="top-nav">
+         <div class="icon">
+         <p>TW</p>
+         </div>
+             <div class="banana"><a href="http://trentwalton.com/category/articles">ARTICLES</a>  
+            <a href="http://trentwalton.com/category/notes">NOTES</a>  
+             <a href="http://trentwalton.com/info">INFO</a>  
+            <a href="http://trentwalton.com/search">SEARCH</a>  
+            </div>
+      
+      </div>
+      
+         <div class="div">
 
-		<link rel="stylesheet" type="text/css" href="style.css">
+            <img class="div__img" src="http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2016/02/atomic-classification-thumb-296x196.png">
+            <h2> 
+               <a href="http://trentwalton.com/2016/02/26/atomic-classification/" class="article_title" rel="bookmark">Atomic Classification</a>
+            
+            <p class="div__text"> I think of modular design as a practice or a philosophy-with Atomic Design being just one way to do it. I've found that I'm able to benefit from Atomic Design concepts without always adopting its classification metaphor. A couple of... <span class="link">read more</span></p>
+         </div>
 
-</head>
-<body>
+         <div class="div">
+            <img class="div__img" src="http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2014/03/device-agnostic-thumb.png">
 
-<div class="header">
-	<img src="http://trentwalton.com/" class="logo">
+            <p class="div__text"> The more I build for the web, the more the term 'device-agnostic' endears itself to me. I used to think it merely dealt with basing responsive breakpoints on content rather than particular devices, but there's more to devices than... <span class="link">read more</span></p>
+         </div>
 
-	<div class="topLinks">
-	    
-	    <a href="http://trentwalton.com/category/articles" class="button">ARTICLES</a>
-		
-		<a href="http://trentwalton.com/category/notes" class="button">NOTES</a>
-		
-		<a href="http://trentwalton.com/info" class="button">INFO</a>
-		
-		<a href="http://trentwalton.com/search" class="button">SEARCH</a>
-	</div>
-</div>
+         <div class="div">
+            <img class="div__img" src="http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2013/12/work-life-thumb.jpg">
 
-<div class="Main" 
+            <p class="div__text"> It probably won't surprise you to know that, though 90% of what I share online relates to my work, thinking about breakpoints, JS plugins, and fonts isn't all I do. I love my family. I like science fiction movies... <span class="link">read more</span></p>
+         </div>
 
-	<div class="Blogs">
-		<a href="yahoo.com" class="Blog Description">Atomic Classification</a>
+            <div class="div">
+               <img class="div__img" src="http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2013/08/hi-thumb.jpg">
 
-		div class="project">
-  		<div class="project__icon">http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2015/08/daytrip.jpg</div>
-  		<div class="project__discription">Near and dear to our hearts, DayTrip is a Paravel project designed to make it easy to find something great to do and someplace great to go. Austin/Texas area private beta out now.</div>
-	  	</div>
-  	</div>
+               <p class="div__text"> Progressive enhancement has proven to be such a great strategy for the technical side of the web that I think we should take a similar approach for its personal side as well. Just as we assume the harshest conditions... <span class="link">read more</span></p>
+            </div>
 
+            <div class="div">
+               <img class="div__img" src="http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2013/04/reorganized.png">
 
+               <p class="div__text"> Process is often shaped by how teams are organized. In the context of designing for the multi-device web, the high level of iteration and communication required to build a modern website is rendering the assembly line approach obsolete... <span class="link">read more</span></p>
+            </div>
 
+            <div class="div">
+               <img class="div__img" src="http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2013/02/wts-thumb.png">
+
+               <p class="div__text"> When making the transition to building responsive websites, the hardest part can be getting started. I get my fair share of questions about how to choose a direction and chart out the first few steps from industry comrades and... <span class="link">read more</span></p>
+            </div>
 
 
-
-</body>
+    
+   <div class="div2">
+      
+      <a href="http://trentwalton.com/category/articles/page/2/">OLDER POSTS</a>
+      
+      <div>
+         <footer>
+            <span class="left"><a><i class="fa fa-twitter" aria-hidden="true"></i>FOLLOW ME ON TWITTER</a></span>
+            <span class="right"><a>HIRE PARAVEL</a></span>
+            <span class="right"><a><i class="fa fa-rss" aria-hidden="true"></i>RSS FEED</a></span>
+         </footer>
+      </div>
+      </body>
 </html>
