@@ -32,20 +32,23 @@ a {
 .div {
   display: flex;
   flex-direction: row;
-  align-items: center; 
-  justify-content: center;
-}
+  align-items: flex-start; 
+  justify-content: flex-start;
+  font-family: sans-serif;
+  }
 
 .div__img {
-    width: 296;
+    width: 96;
     align-items: center;  
     justify-content: flex-start;
+    
 }
 
 .div__text {
     font-size: 20px;
     align-items: center;
     justify-content: center;
+    
 }
 
 .div2 {
