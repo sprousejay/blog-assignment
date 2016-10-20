@@ -35,17 +35,21 @@ a {
   align-items: flex-start; 
   justify-content: flex-start;
   font-family: sans-serif;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   }
 
 .div__img {
     width: 96;
     align-items: center;  
     justify-content: flex-start;
+    padding-right: 20px;
     
 }
 
 .div__text {
-    font-size: 20px;
     align-items: center;
     justify-content: center;
     
