@@ -9,7 +9,7 @@
 
 .top-nav__menu-items {
   padding: 20px;
-  }
+}
 
 a {
   text-decoration: none;
@@ -23,6 +23,7 @@ a {
   height: 70px;
   border-radius: 70px;
   font-family: cursive;
+  font-size: 40px;
 }
 
 .page-content__intro {
@@ -30,7 +31,9 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-family: serif;
 }
 
 .page-content__main-links {
@@ -44,7 +47,7 @@ a {
 }
 
 .page-content {
-    margin: 0px 300px;
+    margin: 0px 155px;
 }
  
 .project {
