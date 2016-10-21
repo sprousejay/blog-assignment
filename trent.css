@@ -16,6 +16,10 @@ a {
   color: #EE4938;
 }
 
+a:hover {
+  color: gray;
+}
+
 .top-nav__icon {
   color: white;
   background-color: black;
@@ -49,6 +53,10 @@ a {
 .page-content {
     margin: 0px 155px;
 }
+
+.article-index-content {
+    margin: 100px 350px 0px 350px;
+}
  
 .project {
   display: flex;
@@ -81,7 +89,56 @@ a {
   padding-top: 40px;
 }
 
+.article {
+  margin-bottom: 100px;
+}
 
+.article__head {
+  display: flex;
+  align-items: center;
+}
+
+.article-image {
+  width: 140px;
+  border: 1px solid lightgray;
+}
+
+.title-info {
+  padding-left: 20px;
+}
+
+.article-title {
+  margin: 0;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.article-info {
+  margin: 0;
+  color: gray;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.article-link {
+  color: gray;
+}
+
+.article-link:hover {
+  color: red;
+}
+
+.article__description {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.older-posts {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
 footer {
   margin-left: auto;
   margin-right: auto;
