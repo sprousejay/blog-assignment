@@ -51,6 +51,10 @@ a:hover {
    color: red;
 }
 
+.page__link [
+  color: red;
+]
+
 .page-content {
     margin: 0px 155px;
 }
