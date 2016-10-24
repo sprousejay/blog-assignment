@@ -51,9 +51,9 @@ a:hover {
    color: red;
 }
 
-.page__link [
+.page__link--currentPage {
   color: red;
-]
+}
 
 .page-content {
     margin: 0px 155px;
