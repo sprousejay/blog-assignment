@@ -23,9 +23,9 @@
    
       <div class="page">
          <a class="page__link <?php isCurrentPage("Articles", $currentPage); ?> " href="article.php"> ARTICLES</a>
-         <a href="http://trentwalton.com/category/notes/" class="page__link">NOTES</a>
-         <a href="http://trentwalton.com/info" class="page__link">INFO</a>
-         <a href="http://trentwalton.com/search" class="page__link">SEARCH</a>
+         <a href="hulk.php" class="page__link">NOTES</a>
+         <a href="..." class="page__link">INFO</a>
+         <a href="..." class="page__link">SEARCH</a>
       </div>
 </div>
       

@@ -1,16 +1,3 @@
-<?php
-
-   $current = "Home";
-
-   function isCurrentPage($pageName, $currentPage) {
-      if ($pageName == $currentPage) {
-         echo "page__link--currentPage";
-      }
-   }
-
-?>
-
-
 <!DOCTYPE html>
 <html>
    <head>
@@ -25,8 +12,8 @@
    <img src="TrentWalton2.jpg" class="logo">
    
       <div class="page">
-         <a href="article.php" class="page__link <?php isCurrentPage("Home", $currentPage); ?> " ARTICLES</a>
-         <a href="..." class="page__link">NOTES</a>
+         <a href="article.php" class="page__link">ARTICLES</a>
+         <a href="hulk.php" class="page__link">NOTES</a>
          <a href="..." class="page__link">INFO</a>
          <a href="..." class="page__link">SEARCH</a>
       </div>
