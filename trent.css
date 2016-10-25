@@ -51,6 +51,11 @@ a:hover {
    color: red;
 }
 
+.page__link {
+  padding: 20px 20px 20px 20px;
+  color: black;
+}
+
 .page__link--currentPage {
   color: red;
 }
@@ -256,11 +261,6 @@ footer {
   font-size: 12px;
 }
 
-
-.page__link {
-  padding: 20px 20px 20px 20px;
-  color: black;
-}
 
 .logo{
   width: 100px;
