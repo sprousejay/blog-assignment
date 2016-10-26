@@ -1,77 +1,81 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>Trent-Walton Website</title>
-      <link rel="stylesheet" type="text/css" href="trent.css"/>
-      
-      
-      
-      <div class="header">
+<?php include ('twheader.php'); ?>
 
+<div class="main">
+   <h3> I'm a designer and web builder who works with two of my best friends at <a href="http://paravelinc.com"> Paravel</a>.
+   </h3>
 
-   <img src="TrentWalton2.jpg" class="logo">
-   
-      <div class="page">
-         <a href="article.php" class="page__link">ARTICLES</a>
-         <a href="hulk.php" class="page__link">NOTES</a>
-         <a href="..." class="page__link">INFO</a>
-         <a href="..." class="page__link">SEARCH</a>
-      </div>
-</div>
-      
-      <div class="page-content">
-         <h3 class="page-content__intro">
-            I'm a designer and web builder who works with two of my best friends at 
-            <a href="http://paravelinc.com/" class="link">Paravel.
-         </h3>
-         <div class="page-content__main-links">
-            <a href="https://twitter.com/TrentWalton">Twitter</a> / 
-            <a href="https://dribbble.com/TrentWalton">Dribbble</a> / 
-            <a href="http://codepen.io/TrentWalton/">Codepen</a> /
-            <a href="https://github.com/TrentWalton">GitHub</a> / 
-            <a href="http://letterboxd.com/trentwalton/">Letterboxd</a> / 
-            <a href="https://godaytrip.com/u/TrentWalton">DayTrip</a>
-         </div>
+   <div class="topLinks">
+      <a href="https://twitter.com/TrentWalton" class="topLinks__item">Twitter</a>
+      <span class="topLinks__separator">/</span>
 
-         <div class="project">
-            <img class="project__img" src="http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2015/08/daytrip.jpg">
-            <p class="project__text"> Near and dear to our hearts, <span class="link">DayTrip</span> is a Paravel project designed to make it easy to find something great to do and someplace great to go. Austin/Texas area private beta out now.</p>
-         </div>
-         <div class="project">
-            <img class="project__img" src="http://res.cloudinary.com/mikeotis/image/upload/v1465157893/tmfo-pd_m5fizg.jpg">
-            <p class="project__text"> We recently published two new <span class="link">TMFO</span> posts. One for <span class="link">Burt Reynolds</span>, and another one called <span class="link">Punch Dancing</span>.</p>
-         </div>
-         <div class="project">
-            <img class="project__img" src="http://pcdn.paravel.netdna-cdn.com/wp-content/uploads/2015/08/paravel.jpg">
-            <p class="project__text"> We recently updated <span class="link">paravelinc.com</span> with some new portfolio items, talks, podcasts, interviews, and a brand new home page graphic from <span class="link">Curtis Jinkins</span>.</p>
-         </div>
-         <div class="project">
-            <img class="project__img" src="http://res.cloudinary.com/mikeotis/image/upload/v1465157870/device-agnostic_uxmmhp.jpg">
-            <p class="project__text">
-               <span class="link">Device Agnostic</span> summarizes how I view and approach building for the web. My perception has been shaped while working on responsive, component-based systems on a large-ish scale.
-            </p>
-         </div>
-         <div class="project">
-            <img class="project__img" src="http://res.cloudinary.com/mikeotis/image/upload/v1465157906/zen-garden_vbrj6y.jpg">
-            <p class="project__text">I was thrilled that <span class="link">Typekit</span> and <span class="link">Dave Shea</span> asked me to contribute a theme to <span class="link">CSS Zen Garden</span> to celebrate its recent responsive update. Read about the process <span class="link">here</span> and <span class="link">here</span>.</p>
-         </div>
+      <a href="https://dribbble.com/TrentWalton" class="topLinks__item">Dribbble</a>
+      <span class="topLinks__separator">/</span>
 
-         <div class="page-content__more-info">
-            More: <a class="link">Info</a>, <a class="link">Articles</a>, or <a class="link">Notes</a>
-         </div>
-      </div>
+      <a href="http://codepen.io/TrentWalton/" class="topLinks__item">Codepen</a>
+      <span class="topLinks__separator">/</span>
 
-      <div class="footer"> 
+      <a href="https://github.com/TrentWalton" class="topLinks__item">GitHub</a>
+      <span class="topLinks__separator">/</span>
 
-  <div class="bottom">
-      <a href= "..." > <img src="..." class="bottom__twitter">FOLLOW ME ON TWITTER</a>
-    <div class="bottomright">
-      <a href= "..." ><img src="..." class="bottom__hire"> HIRE PARAVEL</a>
-      <a href="..."><img src=".." class="bottom__rss"> RSS FEED</a>
-    </div>
-  </div>
+      <a href="http://letterboxd.com/trentwalton/" class="topLinks__item">Letterboxd</a>
+      <span class="topLinks__separator">/</span>
 
-   
+      <a href="https://godaytrip.com/users/sign_in" class="topLinks__item">DayTrip</a>
    </div>
-</body>
-</html>
+</div>
+
+
+<div class="project__content">
+   
+   <div class="project">
+      <img src="twpics/daytrip.jpg" class="project__image">
+         <p class="project__description">
+            Near and dear to our hearts, <a class="pageLinks" href="https://godaytrip.com">DayTrip</a> is a Paravel project designed to make it easy to find something great to do and someplace great to go. Austin/Texas area private beta out now.
+         </p>
+   </div>
+
+
+   <div class="project">
+      <img  class="project__image" src="twpics/tmfo.jpg">
+         <p class="project__description">
+            We recently published two new <a href="http://themanyfacesof.com/burt-reynolds/">TMFO</a> posts. One for <a href="http://themanyfacesof.com/burt-reynolds/">Burt Reynolds</a>, and another one called <a href="http://themanyfacesof.com/punch-dancing/">Punch Dancing</a>.
+         </p>
+   </div>
+
+   
+   <div class="project">
+      <img class="project__image" src="twpics/paravel.jpg">
+         <p class="project__description">
+            We recently updated <a href="http://paravelinc.com">paravelinc.com</a> with some new portfolio items, talks, podcasts, interviews, and a brand new home page graphic from <a href="http://www.neighborhood-studio.com">Curtis Jinkins</a>.
+         </p>
+   </div>
+
+
+   <div class="project">
+      <img class="project__image" src="twpics/device-agnostic.jpg">
+         <p class="project__description">
+            <a href="http://trentwalton.com/2014/03/10/device-agnostic/">Device Agnostic</a> summarizes how I view and approach building for the web. My perception has been shaped while working on responsive, component-based systems on a large-ish scale.
+         </p>
+   </div>
+   
+
+   <div class="project">
+      <img  class="project__image" src="twpics/zen-garden.jpg">
+         <p class="project__description">
+            I was thrilled that <a href="https://typekit.com">Typekit</a> and <a href="http://www.mezzoblue.com/about/dave/">Dave Shea</a> asked me to contribute a theme to <a href="http://www.csszengarden.com/218/">CSS Zen Garden</a> to celebrate its recent responsive update. Read about the process <a href="http://blog.typekit.com/2013/11/26/typekits-second-css-zen-garden-theme-apothecary/">here</a> and <a href="http://trentwalton.com/2014/06/23/optimizing-images/">here</a>.
+         </p>
+   </div>
+</div>
+
+
+   <div class="bottomLinks">
+      <div>
+         More: 
+         <a class="bottomLinks__item" href="http://trentwalton.com/info">Info</a>,
+         <a class="bottomLinks__item" href="articles.html">Articles</a>, or 
+         <a class="bottomLinks__item" href="notes.html">Notes</a>
+      </div>
+   </div>
+</div>
+
+<?php include ('footer.php'); ?>
