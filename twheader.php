@@ -23,7 +23,7 @@ function active($currect_page){
 <div class="header">
 	<a href="trentwalton.php"><img class="home__button" src="twpics/tw.png"></a>
 		<div class= navigation>
-			<a href="articles.php" class="<?php active('articles.php');?>">ARTICELS</a>
+			<a href="articles.php" class="<?php active('articles.php');?>">ARTIClES</a>
 			<a href="notes.php" class="<?php active('notes.php');?>">NOTES</a>
 			<a href="http://trentwalton.com/info" class="<?php active('http://trentwalton.com/info');?>">INFO</a>
 			<a href="http://trentwalton.com/info" class="<?php active('http://trentwalton.com/info');?>">SEARCH</a>
